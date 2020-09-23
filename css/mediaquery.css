@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+    .breadcrumbs-testimonials {
+        width: fit-content;
+        width: -moz-fit-content;
+        float: left;
+        padding: 10px 10px;
+        padding-top: 0;
+    }
+    .retail-button {
+        float: left;
+    }
+    .w-button {
+        float: left;
+        margin-bottom: 20px;
+    }
+    .social-div {
+        padding-top: 20px;
+        float: left;
+    }
+    .desktop-support-image {
+        background-color: #000000;
+        opacity: 0.5;
+        display: none;
+    }
+    .centered {
+        width: 80%;
+    }
+    .centered > p {
+        font-size: 10px;
+    }
+    .centered > h1 {
+        font-size: 22px;
+    }
+    .mobile-support-image {
+        background-color: #000000;
+        opacity: 0.5;
+        display: block;
+    }
+    .supported-row > .col-sm-4 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+    
